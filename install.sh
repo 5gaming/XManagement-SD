@@ -18,3 +18,6 @@ echo "Install Process Ended..."
 echo "After add SSL Certificates run:"
 echo "systemctl enable --now xmanagement"
 echo ----------------------------------
+
+echo Avaliable Allocations:
+ip addr | grep "inet "
