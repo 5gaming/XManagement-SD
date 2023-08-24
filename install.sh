@@ -2,7 +2,7 @@
 
 echo ----------------------------------
 echo "Install XManagement Service Daemon"
-echo "by 5DEV TEAM (SH Script v1.0)"
+echo "by 5DEV TEAM v1.0 SH Script"
 echo ----------------------------------
 
 mkdir -p /var/lib/xmanagement
