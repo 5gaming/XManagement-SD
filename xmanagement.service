@@ -1,0 +1,16 @@
+[Unit]
+Description=XManagement Daemon
+
+[Service]
+User=root
+WorkingDirectory=/etc/pterodactyl
+LimitNOFILE=4096
+PIDFile=/var/run/xmanagement/daemon.pid
+ExecStart=/var/lib/xmanagement
+Restart=on-failure
+StartLimitInterval=180
+StartLimitBurst=30
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
