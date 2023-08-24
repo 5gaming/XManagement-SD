@@ -3,10 +3,10 @@ Description=XManagement Daemon
 
 [Service]
 User=root
-WorkingDirectory=/etc/pterodactyl
+WorkingDirectory=/etc/xmanagement
 LimitNOFILE=4096
 PIDFile=/var/run/xmanagement/daemon.pid
-ExecStart=/var/lib/xmanagement
+ExecStart=/var/lib/xmanagement/XManagement
 Restart=on-failure
 StartLimitInterval=180
 StartLimitBurst=30
